@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loan Application Form</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  
+
+  <div class="container">
+    
+        <form action="/my-handling-form-page" method="post" id="wrapper">
+       
+       <h1>Loan Application Form</h1>
+    
+        <label for="first_name">First Name:</label>
+        <input required type="text" id="first_name" name="user_first_name" placeholder="First Name"><br>
+    
+        <label for="middle-initial">Middle Initial:</label>
+        <input required type="text" id="middle_initial" name="user_middle_initial" placeholder="Mid Initial" /><br>
+  
+        <label for="last_name">Last Name:</label>
+        <input required type="text" id="last_name" name="user_last_name" placeholder="Last Name"/><br>
+    
+        <label for="address">Address:</label>
+        <input required type="text" id="address" name="address" placeholder="Address"/><br>
+    
+        <label for="ocupation">Occupation:</label>
+        <input required type="text" id="occupation" name="occupation" placeholder="Occupation"/><br>
+    
+        <label for="employer">Employer:</label>
+        <input required type="text" id="employer" name="employer" placeholder="Employer"/><br>
+    
+        <label for="employer_address">Employer Address:</label>
+        <input required type="text" id="employer_address" name="employer_address" placeholder="Employer Address"/><br>
+    
+    <label for="select">Type of Loan:</label>
+    <select name="select" class="type">
+  <option>Commercial</option> 
+  <option>Real Estate</option>
+  <option>Personal</option>
+  <option>Mortgage</option>
+</select><br>
+    
+        <label for="loan-amount">Requested Amount of Loan:</label>
+        <input type="text" id="loan-amount" name="loan-amount" placeholder="Loan Amount"/><br>
+
+
+    <label>Loan Length</label><br>
+    <input type="radio" name="loan-length" value="5-years" id="5-years"><label for="5-years">5 Years</label><br>
+      <input type="radio" name="loan-length" value="15-years" id="15-years"><label for="15-years">15 Years</label><br>
+        <input type="radio" name="loan-length" value="30-years" id="30-years"><label for="30-years">30 Years</label><br>
+
+    <label>Special Conditions</label><br>
+    <input type="checkbox" name="special-conditions" value="down-payment" id="down-payment"><label for="down-payment">I have a down payment</label><br>
+    <input type="checkbox" name="special-conditions" value="out-of-state" id="out-of-state"><label for="out-of-state">Out of State resident</label><br>
+    <input type="checkbox" name="special-conditions" value="married" id="married"><label for="married">Married</label><br>
+    <input type="checkbox" name="special-conditions" value="co-sign" id="co-sign"><label for="co-sign">Loan will be co-signed</label><br>
+
+<textarea rows="20" cols="40" id="textarea">Additional Comments</textarea><br>
+
+  <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required="" /><br> 
+
+    <label>Phone Number</label>
+    <input type="tel" name="phone" id="phone" placeholder="Phone" required=""><br>
+
+    <label>Linkedin</label>
+    <input type="url" name="linkedin" id="linkedin" placeholder="Linkedin"><br>
+<input type="submit" value="Submit">
+   
+   </div> 
+   
+
+</form>
+</body>
