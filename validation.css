@@ -1,21 +1,13 @@
 .wrapper {
-  max-width: 940px;
   margin: 0 auto;
-  padding: auto;
-  text-align: center;
+  width: 80%;
+  text-align: center
 }
 
 textarea {
   text-align: center;
 }
 
-
-
-/*green header */
-header {
-  background: ##6ab47b;
-  border-color: #599a68;
-}
 
 /* logo text */
 h1 {
@@ -27,27 +19,14 @@ label {
   font-weight: bold; 
 }
 
-.hometown:input:invalid {
-  background-color: #ffdddd;
+
+
+input:required:invalid {
+  background-color: red;
 }
 
-.hometown:form:invalid {
-  border: 5px solid #ffdddd;
+
+input:required:valid {
+  background-color: green;
 }
 
-.hometown:input:valid {
-  background-color: #ddffdd;
-}
-
-.hometown:form:valid {
-  border: 5px solid #ddffdd;
-}
-  
-.hometown:input:required {
-  border-color: #800000;
-  border-width: 3px;
-}
-
-.hometown:input:required:valid {
-  border-color: #008000;
-}
