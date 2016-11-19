@@ -1,32 +1,9 @@
-.wrapper {
-  margin: 0 auto;
-  width: 80%;
-  text-align: center
+
+input:valid:focus {
+  background-color: rgba(39, 174, 96,1.0);
 }
 
-textarea {
-  text-align: center;
-}
-
-
-/* logo text */
-h1 {
-  color: blue;
-  text-align: center;
-}
-
-label {
-  font-weight: bold; 
-}
-
-
-
-input:required:invalid {
+input:invalid:focus {
   background-color: red;
-}
-
-
-input:required:valid {
-  background-color: green;
 }
 
