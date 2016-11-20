@@ -1,24 +1,9 @@
-.hometown:input:invalid {
-  background-color: #ffdddd;
+
+input:valid:focus {
+  background-color: rgba(39, 174, 96,1.0);
 }
 
-.hometown:form:invalid {
-  border: 5px solid #ffdddd;
+input:invalid:focus {
+  background-color: red;
 }
 
-.hometown:input:valid {
-  background-color: #ddffdd;
-}
-
-.hometown:form:valid {
-  border: 5px solid #ddffdd;
-}
-  
-.hometown:input:required {
-  border-color: #800000;
-  border-width: 3px;
-}
-
-.hometown:input:required:valid {
-  border-color: #008000;
-}
